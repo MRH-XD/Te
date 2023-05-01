@@ -187,10 +187,10 @@ if bit == '64bit':
 elif bit == '32bit':
  print('\033[1;91m[\033[1;32m✓\033[1;36m\033[1;91m] \033[1;96m YOUR DEVICE IS 32 BIT');time.sleep(1.0)
 def menu_apikey():
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "ᛇ".join(uuid)
+  #uuid = str(os.geteuid()) + str(os.getlogin())
+  #id = "ᛇ".join(uuid)
   name = "ᛇRXS"
-  server = requests.get('https://github.com/RXS-XD/APPROVAL-KEY/blob/RXS/RXS%20PAID').text
+  #server = requests.get('https://github.com/RXS-XD/APPROVAL-KEY/blob/RXS/RXS%20PAID').text
   
  
 
@@ -206,8 +206,8 @@ def menu_apikey():
 ╚═══════════════╩═════════════╩══════════════╝
 
 """)
-  print("\t \033[1;32m     FIRST GET APPROVAL\033[1;37m ")
-  print("")
+  #print("\t \033[1;32m     FIRST GET APPROVAL\033[1;37m ")
+ # print("")
   print("\033[1;32    YOUR  KEY : "+id+name)
   print("")
   try:
@@ -219,10 +219,10 @@ def menu_apikey():
       pass
     else:
       
-      print("\x1b[1;91m  SORRY YOUR KEY IS NOT APPROVED ")
-      print("\x1b[1;92m  PLEASE CONTACT ADMIN TO BUY THIS TOOL ")
-      input('   \x1b[0;37m \033[1;32mPRESS ENTER TO BUY TOOL ')
-      os.system('xdg-open https://wa.me/+8801989861704?text=Assalamuwalaikum%20Sir,%20I%20Want%20To%20Buy%20Your%20RXS%20Paid%20Tool.%20My%20Key:%20'+id+name)
+      #print("\x1b[1;91m  SORRY YOUR KEY IS NOT APPROVED ")
+      #print("\x1b[1;92m  PLEASE CONTACT ADMIN TO BUY THIS TOOL ")
+      #input('   \x1b[0;37m \033[1;32mPRESS ENTER TO BUY TOOL ')
+      #os.system('xdg-open https://wa.me/+8801989861704?text=Assalamuwalaikum%20Sir,%20I%20Want%20To%20Buy%20Your%20RXS%20Paid%20Tool.%20My%20Key:%20'+id+name)
       time.sleep(2)
       sys.exit()
   except:
