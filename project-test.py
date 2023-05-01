@@ -303,7 +303,7 @@ def RXS():
 			exit()
 		print(f' \033[1;96m[\033[1;32m1\033[1;96m] \033[1;93mMethod 1 \n \033[1;96m[\033[1;32m2\033[1;96m] Method 2 \n \033[1;96m[\033[1;32m3\033[1;96m] \033[1;94mMethod 3 ')
 		print('\x1b[92m══════════════════════════════════════════════')
-		mthd=input(f 'Choose Option: ')
+		mthd=input(f'Choose Option: ')
 		plist=[]
 		try:
 			ps_limit = int(input(f' How many passwords do you want to add ? '))
