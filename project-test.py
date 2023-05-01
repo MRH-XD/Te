@@ -495,11 +495,11 @@ def api1(ids,names,passlist):
         except requests.exceptions.ConnectionError:
                 time.sleep(20)
         loop+=1
-	elif opt =='E':
-		exit()
-	else:
-		print('\n\033[1;92mCHOOSE VALID OPTION\033[0;97m');time.sleep(1)
-		RXS()
+elif opt =='E':
+	exit()
+else:
+	print('\n\033[1;92mCHOOSE VALID OPTION\033[0;97m');time.sleep(1)
+	RXS()
 def admin():
 	os.system('clear')
 	print(logo)
