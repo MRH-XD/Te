@@ -284,7 +284,7 @@ def RXS():
 	print("[X] CONTRACT ADMIN")
 	print('[E] Back')
 	print("\x1b[92m══════════════════════════════════════════════")
-	opt = input('\x1b[92mChoose option: \x1b[97m')
+	opt = input('Choose option: ')
 	if opt =='A':
 		virus()
 	if opt =='B':
