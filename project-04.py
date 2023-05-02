@@ -295,7 +295,7 @@ def RXS():
 		virus3()
 	if opt =='X':
 		admin()
-	if opt =='E':
+	elif opt =='E':
 		exit()
 	if opt =='D':
 		clear()
