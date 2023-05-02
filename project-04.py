@@ -284,7 +284,7 @@ def RXS():
 	print("[C] BD UID CLONING ")
 	print("[D] FILE CLONING ")
 	print("[X] CONTRACT ADMIN")
-	print('[E] Back')
+	print('[E] Exit')
 	print("\x1b[92m══════════════════════════════════════════════")
 	opt = input('Choose option: ')
 	if opt =='A':
@@ -295,6 +295,8 @@ def RXS():
 		virus3()
 	if opt =='X':
 		admin()
+	if opt =='E':
+		exit()
 	if opt =='D':
 		clear()
 		file = input(f' Put file path\033[1;37m: ')
