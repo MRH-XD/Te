@@ -192,7 +192,7 @@ def menu_apikey():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "ᛇ".join(uuid)
   name = "ᛇRXS"
-  server = requests.get('https://github.com/RXS-XD/APPROVAL-KEY/blob/RXS/RXS%20PAID').text
+  server = requests.get('https://github.com/TAHOSIN-BRO/Te/blob/main/dai.txt').text
   
  
 
@@ -213,7 +213,7 @@ def menu_apikey():
   print("\033[1;32    YOUR  KEY : "+id+name)
   print("")
   try:
-    httpCaht = requests.get("https://github.com/RXS-XD/APPROVAL-KEY/blob/RXS/RXS%20PAID").text
+    httpCaht = requests.get("https://github.com/TAHOSIN-BRO/Te/blob/main/dai.txt").text
     if id in httpCaht:
       print("\033[1;92m  YOUR KEY IS APROVED  ");time.sleep(2)
       msg = str(os.geteuid())
