@@ -520,10 +520,12 @@ def admin():
 def bangla():
     os.system('clear')
     print(logo)
+    print('\x1b[92m══════════════════════════════════════════════')
     print('[1] BD RANDOM CLONING')
     print('\x1b[1;97m[2] BD NUMBER CLONING')
     print('\x1b[1;97m[3] BD UID CLONING')
     print('\x1b[1;91m[0] Go to main menu')
+    print('\x1b[92m══════════════════════════════════════════════')
     lines()
     tahosin = input('[+] Select option : ')
     if tahosin =='1':
