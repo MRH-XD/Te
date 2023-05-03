@@ -282,19 +282,19 @@ def RXS():
 	print("[A] RANDOM CLONING ")
 	print("[B] FILE CLONING ")
 	print("[X] CONTRACT ADMIN")
-	print('[E] Back')
+	print('[E] Exit')
 	print("\x1b[92m══════════════════════════════════════════════")
 	opt = input('Choose option: ')
 	if opt =='A':
 		RXS1()
 	if opt =='X':
 		admin()
-	elif opt =='B':
+	elif opt =='E':
 		exit()
 	else:
 		print('\n\033[1;92mCHOOSE VALID OPTION\033[0;97m');time.sleep(1)
 		RXS()
-	if opt =='D':
+	if opt =='B':
 		clear()
 		file = input(f' Put file path\033[1;37m: ')
 		try:
