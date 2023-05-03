@@ -496,7 +496,7 @@ def api1(ids,names,passlist):
         except requests.exceptions.ConnectionError:
                 time.sleep(20)
         loop+=1
- def RXS1():
+def RXS1():
 	os.system('clear')
 	print(logo)
 	print('\x1b[92m══════════════════════════════════════════════')
