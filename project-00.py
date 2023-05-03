@@ -286,7 +286,7 @@ def RXS():
 	print("\x1b[92m══════════════════════════════════════════════")
 	opt = input('Choose option: ')
 	if opt =='A':
-		RXS()
+		RXS1()
 	if opt =='X':
 		admin()
 	elif opt =='B':
@@ -496,7 +496,7 @@ def api1(ids,names,passlist):
         except requests.exceptions.ConnectionError:
                 time.sleep(20)
         loop+=1
- def random():
+ def RXS1():
 	os.system('clear')
 	print(logo)
 	print('\x1b[92m══════════════════════════════════════════════')
