@@ -508,9 +508,9 @@ def RXS1():
 	opr = input('\x1b[92mChoose option: \x1b[97m')
 	if opr =='1':
 		virus()
-	elif opr =='2':
+	if opr =='2':
 		virus2()
-	elif opr =='3':
+	if opr =='3':
 		virus3()
 	elif opr =='0':
 		RXS()
