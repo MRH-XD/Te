@@ -526,13 +526,10 @@ def random():
 	na = input('\x1b[92mChoose option: \x1b[97m')
 	if na =='1':
 		virus()
-		random()
 	if na =='2':
 		virus2()
-		random()
 	if na =='3':
 		virus3()
-		random()
 	if na =='0':
 		RXS()
 def virus():
