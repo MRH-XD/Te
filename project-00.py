@@ -527,7 +527,7 @@ def random():
 	print("[3] BD UID CLONING")
 	print('[0] Back')
 	print("\x1b[92m══════════════════════════════════════════════")
-	rxs = input('\x1b[92mChoose option: \x1b[97m')
+rxs = input('\x1b[92mChoose option: \x1b[97m')
 if rxs =='1':
 	virus()
 if rxs =='2':
