@@ -280,7 +280,7 @@ def RXS():
 	print(logo)
 	print('\x1b[92m══════════════════════════════════════════════')
 	print("[A] RANDOM CLONING ")
-	print("[D] FILE CLONING ")
+	print("[B] FILE CLONING ")
 	print("[X] CONTRACT ADMIN")
 	print('[E] Back')
 	print("\x1b[92m══════════════════════════════════════════════")
