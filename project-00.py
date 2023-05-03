@@ -527,14 +527,14 @@ def random():
 	print("[3] BD UID CLONING")
 	print('[0] Back')
 	print("\x1b[92m══════════════════════════════════════════════")
-	opr = input('\x1b[92mChoose option: \x1b[97m')
-if opr =='1':
+	rxs = input('\x1b[92mChoose option: \x1b[97m')
+if rxs =='1':
 	virus()
-if opr =='2':
+if rxs =='2':
 	virus2()
-if opr =='3':
+if rxs =='3':
 	virus3()
-if opr =='0':
+if rxs =='0':
 	RXS()
 #def choice()
 #
