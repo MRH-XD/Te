@@ -529,12 +529,16 @@ def random():
 	ok = input('\x1b[92mChoose option: \x1b[97m')
 	if ok =='1':
 		virus()
+		random()
 	if ok =='2':
 		virus2()
+		random()
 	if ok =='3':
 		virus3()
+		random()
 	if ok =='0':
 		RXS()
+		random()
 def virus():
 	user=[]
 	os.system('clear')
