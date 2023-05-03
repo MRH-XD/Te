@@ -524,16 +524,16 @@ def random():
 	print(' [0] Back Main Menu')
 	print("\x1b[92m══════════════════════════════════════════════")
 	na = input('\x1b[92mChoose option: \x1b[97m')
-	if bal =='1':
+	if na =='1':
 		virus()
 		random()
-	if bal =='2':
+	if na =='2':
 		virus2()
 		random()
-	if bal =='3':
+	if na =='3':
 		virus3()
 		random()
-	if bal =='0':
+	if na =='0':
 		RXS()
 def virus():
 	user=[]
