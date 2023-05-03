@@ -508,11 +508,11 @@ def RXS1():
 	opr = input('\x1b[92mChoose option: \x1b[97m')
 	if opr =='1':
 		virus()
-	if opr =='2':
+	elif opr =='2':
 		virus2()
-	if opr =='3':
+	elif opr =='3':
 		virus3()
-	if opr =='0':
+	elif opr =='0':
 		RXS()
 def admin():
 	os.system('clear')
