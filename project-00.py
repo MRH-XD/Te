@@ -286,7 +286,7 @@ def RXS():
 	print("\x1b[92m══════════════════════════════════════════════")
 	opt = input('Choose option: ')
 	if opt =='A':
-		random()
+		RXS()
 	if opt =='X':
 		admin()
 	elif opt =='B':
