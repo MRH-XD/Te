@@ -517,28 +517,23 @@ def admin():
 		admin()
 	if bal =='0':
 		RXS()
-def random():
-	os.system('clear')
-	print(logo)
-	print('\x1b[92m══════════════════════════════════════════════')
-	print(' [1] BD RANDOM CLONING ')
-	print(' [2] BD NUMBER CLONING ')
-	print(' [3] BD UID CLONING')
-	print(' [0] Back Main Menu')
-	print("\x1b[92m══════════════════════════════════════════════")
-	ok = input('\x1b[92mChoose option: \x1b[97m')
-	if ok =='1':
-		virus()
-		random()
-	if ok =='2':
-		virus2()
-		random()
-	if ok =='3':
-		virus3()
-		random()
-	if ok =='0':
-		RXS()
-		random()
+def bangla():
+    os.system('clear')
+    print(logo)
+    print('[1] BD RANDOM CLONING')
+    print('\x1b[1;97m[2] BD NUMBER CLONING')
+    print('\x1b[1;97m[3] BD UID CLONING')
+    print('\x1b[1;91m[0] Go to main menu')
+    lines()
+    tahosin = input('[+] Select option : ')
+    if tahosin =='1':
+        virus()
+    if tahosin =='2':
+        virus2()
+    if tahosin =='3':
+        virus3()
+    if tahosin =='0':
+        RXS()
 def virus():
 	user=[]
 	os.system('clear')
