@@ -517,7 +517,7 @@ def admin():
 		admin()
 	if bal =='0':
 		RXS()
-def tandu():
+def random():
 	os.system('clear')
 	print(logo)
 	print('\x1b[92m══════════════════════════════════════════════')
@@ -529,13 +529,10 @@ def tandu():
 	ok = input('\x1b[92mChoose option: \x1b[97m')
 	if ok =='1':
 		virus()
-		random()
 	if ok =='2':
 		virus2()
-		random()
 	if ok =='3':
 		virus3()
-		random()
 	if ok =='0':
 		RXS()
 def virus():
