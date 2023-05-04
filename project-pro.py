@@ -299,7 +299,7 @@ def RXS():
 		except FileNotFoundError:
 			print(f' File location not found ')
 			exit()
-		print(f' \033[1;96m[\033[1;32m1\033[1;96m] \033[1;93mMETHOD A [OLD] \n \033[1;96m[\033[1;32m2\033[1;96m] METHOD B [OLD] \n \033[1;96m[\033[1;32m3\033[1;96m] \033[1;94mMETHOD C [NEW]')
+		print(f' \033[1;96m[\033[1;32m1\033[1;96m] \033[1;93mMETHOD A [OLD] \n \033[1;96m[\033[1;32m2\033[1;96m] METHOD B [OLD] \n \033[1;96m[\033[1;32m3\033[1;96m] \033[1;94mMETHOD C [NEW]\033[1;37m \n [\033[1;32m0\033[1;37m] BACK TO MAIN MENU')
 		print('\x1b[92m══════════════════════════════════════════════\033[1;37m')
 		mthd=input(f'Choose Option: ')
 		plist=[]
@@ -331,6 +331,8 @@ def RXS():
 					crack_submit.submit(ffb1,ids,names,passlist)
 				elif mthd in ['3','03']:
 					crack_submit.submit(api1,ids,names,passlist)
+				elif mthd in ['0','00']:
+					RXS()
 				else:
 					crack_submit.submit(api1,ids,names,passlist)
 def ffb(ids,names,passlist):
@@ -499,7 +501,7 @@ def RXS1():
 	print('\x1b[92m══════════════════════════════════════════════\033[1;37m')
 	print("\033[1;96m[\033[1;32m1\033[1;96m] \033[1;93mMETHOD A ")
 	print("\033[1;96m[\033[1;32m2\033[1;96m] METHOD B ")
-	print("\033[1;96m[\033[1;32m3\033[1;96m] \033[1;94mMETHOD C")
+	print("\033[1;96m[\033[1;32m3\033[1;96m] \033[1;94mMETHOD C\033[1;37m")
 	print('[\033[1;32m0\033[1;37m] BACK TO MAIN MENU')
 	print("\x1b[92m══════════════════════════════════════════════\033[1;37m")
 	opr = input('\x1b[92mChoose option: \x1b[97m')
@@ -517,7 +519,7 @@ def admin():
 	print('\x1b[92m══════════════════════════════════════════════\033[1;37m')
 	print(' \033[1;96m[\033[1;32m1\033[1;96m] \033[1;93mCONTACT WHATSAPP ')
 	print(' \033[1;96m[\033[1;32m2\033[1;96m] CONTACT FACEBOOK ')
-	print(' \033[1;96m[\033[1;32m3\033[1;96m] \033[1;94mFOLLOW GITHUB')
+	print(' \033[1;96m[\033[1;32m3\033[1;96m] \033[1;94mFOLLOW GITHUB\033[1;37m')
 	print(' [\033[1;32m0\033[1;37m] BACK TO MAIN MENU')
 	print("\x1b[92m══════════════════════════════════════════════\033[1;37m")
 	bal = input('\x1b[92mChoose option: \x1b[97m')
