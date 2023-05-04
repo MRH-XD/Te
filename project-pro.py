@@ -299,7 +299,7 @@ def RXS():
 		except FileNotFoundError:
 			print(f' File location not found ')
 			exit()
-		print(f' \033[1;96m[\033[1;32m1\033[1;96m] \033[1;93mMETHOD A [OLD] \n \033[1;96m[\033[1;32m2\033[1;96m] METHOD B [OLD] \n \033[1;96m[\033[1;32m3\033[1;96m] \033[1;94mMETHOD C [NEW]\033[1;37m \n [\033[1;32m0\033[1;37m] BACK TO MAIN MENU')
+		print(f' \033[1;96m[\033[1;32m1\033[1;96m] \033[1;93mMETHOD A [OLD] \n \033[1;96m[\033[1;32m2\033[1;96m] METHOD B [OLD] \n \033[1;96m[\033[1;32m3\033[1;96m] \033[1;94mMETHOD C [NEW]')
 		print('\x1b[92m══════════════════════════════════════════════\033[1;37m')
 		mthd=input(f'Choose Option: ')
 		plist=[]
@@ -331,8 +331,6 @@ def RXS():
 					crack_submit.submit(ffb1,ids,names,passlist)
 				elif mthd in ['3','03']:
 					crack_submit.submit(api1,ids,names,passlist)
-				elif mthd in ['0','00']:
-					RXS()
 				else:
 					crack_submit.submit(api1,ids,names,passlist)
 def ffb(ids,names,passlist):
