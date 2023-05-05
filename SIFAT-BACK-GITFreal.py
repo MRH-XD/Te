@@ -136,53 +136,7 @@ def jalan(z):
         sys.stdout.write(e)
         sys.stdout.flush()
         time.sleep(0.01)
-def menu_apikey():
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "༒".join(uuid)
-  server = requests.get('https://github.com/TAHOSIN-BRO/Te/blob/main/dai.txt').text
-  
- 
 
-  os.system(" clear")                          
-  print("""\033[1;37m
-   .d8888. d888888b d88888b  .d8b.  d888888b 
-   88'  YP   `88'   88'     d8' `8b `~~88~~' 
-   `8bo.      88    88ooo   88ooo88    88    
-     `Y8b.    88    88~~~   88~~~88    88    
-   db   8D   .88.   88      88   88    88    
-   `8888Y' Y888888P YP      YP   YP    YP    
-   
-\033[1;97m═════════════════════════════════════════════
-[\033[1;92m✔\033[1;97m]OWNER          \033[1;91m: \033[1;97mMASUDUR RAHMAN SIFAT
-[\033[1;92m✔\033[1;97m]TOOL           \033[1;91m: \033[1;97mCLONEING
-[\033[1;92m✔\033[1;97m]STATUS         \033[1;91m: \033[1;97mPREMIUM 
-[\033[1;92m✔\033[1;97m]NETWORK        \033[1;31m: \033[1;97m3G\033[97;1m,4G,5G
-[\033[1;92m✔\033[1;97m]VERSION        \033[1;91m: \033[38;5;208m1.0.0
-\033[1;97m═════════════════════════════════════════════ """)
-  print("\t \033[1;32m     FIRST GET APPROVEL\033[1;37m ")
-  print("")
-  print("\033[1;32    YOUR  KEY : "+id)
-  print("")
-  try:
-    httpCaht = requests.get("https://github.com/TAHOSIN-BRO/Te/blob/main/dai.txt").text
-    if id in httpCaht:
-      print("\033[1;92m  YOUR KEY APROVED  ");time.sleep(2)
-      msg = str(os.geteuid())
-      time.sleep(0.5)
-      pass
-    else:
-      
-      print("\x1b[1;92m  Sorry Your Key Not Aproved ")
-      print("\x1b[1;92m  Plasse Contract Admin")
-      os.system('xdg-open https://wa.me/+8801858094178?text='+id)
-      time.sleep(2)
-      sys.exit()
-  except:
-    sys.exit()
-    if name == '__main__':
-    	print(logo)
-    	menu_apikey()
-menu_apikey()
 logo=("""\033[1;37m
    .d8888. d888888b d88888b  .d8b.  d888888b 
    88'  YP   `88'   88'     d8' `8b `~~88~~' 
