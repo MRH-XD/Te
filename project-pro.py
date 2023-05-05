@@ -725,27 +725,21 @@ def b(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'user-agent', 'Mozilla/5.0 (Linux; U; Android 4;  en-us; GT-D778E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4278.115 Mobile Safari/537.36'
-'accept-encoding', 'gzip, deflate, br'
-'accept', 'application/x-www-form-urlencoded'
-'Connection', 'keep-alive'
-'authority', 'p.facebook.com'
-'method', 'POST'
-'scheme', 'https'
-'accept-language', 'en-US,en;q=0.9'
-'cache-control', 'no-cache, no-store, must-revalidate'
-'referer', 'https://p.facebook.com/'
-'sec-ch-ua', '"Chromium";v="107", "Not=A?Brand";v="24"'
-'sec-ch-ua-mobile', '?1'
-'sec-ch-ua-platform', 'Windows'
-'sec-fetch-dest', 'empty'
-'sec-fetch-mode', 'cors'
-'sec-fetch-site', 'same-origin'
-'sec-fetch-user', '?0'
-'pragma', 'no-cache'
-'priority', 'u=0'
-'cross-origin-resource-policy', 'cross-origin'
-'upgrade-insecure-requests', '1'}
+            header_freefb = {'authority': 'mbasic.facebook.com',
+           'method': 'GET', 
+            'scheme': 'https', 
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+            'sec-ch-ua': '"Chromium";v="110", "Not A(Brand";v="24", "Google Chrome";v="110"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"Windows"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': pro}
             lo = session.post('https://mbasic.facebook.com/login/?li=M_FMZPQDtUrZZ-CY28HLNnun&e=1348029&shbl=1&ref=dbl&refsrc=deprecated&_rdr',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
