@@ -297,6 +297,7 @@ def RXS():
 	if opt =='B':
 		clear()
 		file = input(f' Put file path\033[1;37m: ')
+		print("\x1b[92m══════════════════════════════════════════════\x1b[97m")
 		try:
 			fo = open(file,'r').read().splitlines()
 		except FileNotFoundError:
