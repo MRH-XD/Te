@@ -195,7 +195,7 @@ def rxs_approval():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "ᛇ".join(uuid)
   name = "ᛇRXS"
-  server = requests.get('https://github.com/reyadz/approval.txt/blob/main/approval.txt').text
+  server = requests.get('https://github.com/TAHOSIN-BRO/Te/blob/main/dai.txt').text
   
  
 
@@ -216,7 +216,7 @@ def rxs_approval():
   print("\033[1;32m    YOUR  KEY : "+id+name)
   print("")
   try:
-    httpCaht = requests.get("https://github.com/reyadz/approval.txt/blob/main/approval.txt").text
+    httpCaht = requests.get("https://github.com/TAHOSIN-BRO/Te/blob/main/dai.txt").text
     if id in httpCaht:
       print("\033[1;92m  YOUR KEY IS APROVED  ");time.sleep(2)
       msg = str(os.geteuid())
