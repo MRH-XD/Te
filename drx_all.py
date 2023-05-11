@@ -61,7 +61,7 @@ for nmbr in range(limit):
 	nmp = ''.join(random.choice(string.digits) for _ in range(4))
 	user.append(nmp)
 with ThreadPool(max_workers=60) as yaari:
-os.system('clear')
+	os.system('clear')
 print("""
  
 	██████  ██████  ██   ██ 
