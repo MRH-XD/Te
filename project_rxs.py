@@ -74,7 +74,14 @@ try:
 except ValueError:
     exit()
 def banner():
-	print(logo)
+	print(logoprint("""
+\033[1;32m╔══════════╦═════════════════════════════════╗\033[1;32m
+║\033[1;36m╦═╗═╗ ╦╔═╗\033[1;32m║\033[1;36mOWNER: REYAD AND SHIPU \033[1;32m          ║\033[1;32m
+║\033[1;36m╠╦╝╔╩╦╝╚═╗\033[1;32m║\033[1;36mFACEBOOK: MD REYAD HOSSAIN SHANTO\033[1;32m║\033[1;32m
+║\033[1;36m╩╚═╩ ╚═╚═╝\033[1;32m║\033[1;36mWHATSAPP: +8801989861704\033[1;32m         ║\033[1;32m
+╠══════════╩════╦═════════════╦══════════════╣
+║\033[1;36mGITHUB:BINOD-XD\033[1;32m║\033[1;36mVERSION:1.0.1\033[1;32m║\033[1;36mRANDOM X FILE\033[1;32m ║\033[1;32m
+╚═══════════════╩═════════════╩══════════════╝""")
 current = datetime.now()
 ta = current.year
 bu = current.month
