@@ -198,44 +198,32 @@ if bit == '64bit':
  print('\033[1;91m[\033[1;32m✓\033[1;36m\033[1;91m] \033[1;96m YOUR DEVICE IS 64 BIT');time.sleep(1.0)
 elif bit == '32bit':
  print('\033[1;91m[\033[1;32m✓\033[1;36m\033[1;91m] \033[1;96m YOUR DEVICE IS 32 BIT');time.sleep(1.0)
-def rxs_approval():
+def approval():
   time.sleep(1)
-  uuid = str(os.geteuid())+"DAD"+str(os.geteuid())
-  id = "RXS-"+"".join(uuid)
+  uuid = str(os.geteuid())+"DS"+str(os.geteuid())
+  id = "HV4-"+"".join(uuid)
   os.system('clear')
-def animation(u):
-	for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-def alvino_xy(u):
-        for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.005)
-print("""
-\033[1;32m╔══════════╦═════════════════════════════════╗\033[1;32m
-║\033[1;36m╦═╗═╗ ╦╔═╗\033[1;32m║\033[1;36mOWNER: REYAD AND SHIPU \033[1;32m          ║\033[1;32m
-║\033[1;36m╠╦╝╔╩╦╝╚═╗\033[1;32m║\033[1;36mFACEBOOK: MD REYAD HOSSAIN SHANTO\033[1;32m║\033[1;32m
-║\033[1;36m╩╚═╩ ╚═╚═╝\033[1;32m║\033[1;36mWHATSAPP: +8801989861704\033[1;32m         ║\033[1;32m
-╠══════════╩════╦═════════════╦══════════════╣
-║\033[1;36mGITHUB:BINOD-XD\033[1;32m║\033[1;36mVERSION:1.0.1\033[1;32m║\033[1;36mRANDOM X FILE\033[1;32m ║\033[1;32m
-╚═══════════════╩═════════════╩══════════════╝""")
-animation("\033[1;37m [\u001b[36m𝜩\033[1;37m] YOU NEED APPROVAL TO USE THIS TOOL   \033[1;37m")
-print("\033[1;37m [\u001b[36m𝜩\033[1;37m] YOUR KEY :\u001b[36m "+id);time.sleep(0.1)
-
-print('\x1b[92m══════════════════════════════════════════════\x1b[97m')
-try:
+  banner()
+  animation("\033[1;37m [\u001b[36m•\033[1;37m] YOU NEED APPROVAL TO USE THIS TOOL   \033[1;37m")
+  print("\033[1;37m [\u001b[36m•\033[1;37m] YOUR KEY :\u001b[36m "+id);time.sleep(0.1)
+  print ("""\033[1;37m----------------------------------------------""")
+  try:
     httpCaht = requests.get("https://github.com/SXA18/approval.txt/blob/main/approval.txt").text
     if id in httpCaht:
-      animation("\033[1;97m [\u001b[36m❯\033[1;37m] YOUR KEY HAS BEEN APPROVED !!!")
+      animation("\033[1;97m [\u001b[36m>\033[1;37m] YOUR KEY HAS BEEN APPROVED !!!")
       msg = str(os.geteuid())
       time.sleep(1)
       pass
     else: 
-      animation("\x1b[1;97m [\u001b[36m❯\033[1;37m] SORRY YOUR KEY HAS NOT BEEN APPROVED ");
+      animation("\x1b[1;97m [\u001b[36m>\033[1;37m] SORIEE YOUR KEY HAS NOT BEEN APPROVED ");
       time.sleep(0.1)
-      input(' [\u001b[36m❯\033[1;37m] CLICK ENTER TO SEND YOUR KEY ')
-      os.system('xdg-open https://wa.me/+8801989861704?text=Assalamuwalaikum%20Sir,%20I%20Want%20To%20Buy%20Your%20RXS%20Paid%20Tool.%20My%20Key:%20'+id)
+      input(' [\u001b[36m>\033[1;37m] CLICK ENTER TO SEND YOUR KEY ')
+      os.system('xdg-open https://www.facebook.com/sujan.carkey.90?mibextid=ZbWKwL')
       time.sleep(1)
       exit()
-except:
+  except: 
      exit() 
-rxs_approval()
+approval()
 logo=("""
 \033[1;32m╔══════════╦═════════════════════════════════╗\033[1;32m
 ║\033[1;36m╦═╗═╗ ╦╔═╗\033[1;32m║\033[1;36mOWNER: REYAD AND SHIPU \033[1;32m          ║\033[1;32m
