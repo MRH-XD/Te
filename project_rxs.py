@@ -74,7 +74,7 @@ try:
 except ValueError:
     exit()
 def banner():
-	print(logoprint("""
+	print("""
 \033[1;32m╔══════════╦═════════════════════════════════╗\033[1;32m
 ║\033[1;36m╦═╗═╗ ╦╔═╗\033[1;32m║\033[1;36mOWNER: REYAD AND SHIPU \033[1;32m          ║\033[1;32m
 ║\033[1;36m╠╦╝╔╩╦╝╚═╗\033[1;32m║\033[1;36mFACEBOOK: MD REYAD HOSSAIN SHANTO\033[1;32m║\033[1;32m
