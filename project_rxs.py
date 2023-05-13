@@ -211,7 +211,7 @@ def approval():
   id = "HV4-"+"".join(uuid)
   os.system('clear')
   banner()
-  animation("\033[1;37m [\u001b[36m•\033[1;37m] YOU NEED APPROVAL TO USE THIS TOOL   \033[1;37m")
+  ("\033[1;37m [\u001b[36m•\033[1;37m] YOU NEED APPROVAL TO USE THIS TOOL   \033[1;37m")
   print("\033[1;37m [\u001b[36m•\033[1;37m] YOUR KEY :\u001b[36m "+id);time.sleep(0.1)
   print ("""\033[1;37m----------------------------------------------""")
   try:
